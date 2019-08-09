@@ -10,8 +10,6 @@ const user = async () => {
             } else {
                 reject('Promise one fails');
             }
-
-           // setTimeout( () => reject('sorry'),2000)
        });
        
        const userdata = new Promise((resolve,reject)=> {
@@ -26,14 +24,6 @@ const user = async () => {
         console.log(e);
     }
     
-
-
-
-
-    
-    
-
-    //return form;
     
     }
     
